@@ -30,7 +30,7 @@ body {
 }
 
 .button {
-  background-color: #007bff;
+  background-color: #109c84;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -40,7 +40,7 @@ body {
 }
 
 .button:hover {
-  background-color: #0056b3; 
+  background-color: #0a6556; 
 }
 
 .dashboard-container {
@@ -121,7 +121,7 @@ body {
   position: absolute;
   top: 20px;
   left: 20px;
-  background-color: #007bff;
+  background-color: #109c84;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -135,5 +135,5 @@ body {
 }
 
 .back-button:hover {
-  background-color: #0056b3; 
+  background-color: #0a6556; 
 }

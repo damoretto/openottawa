@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f9f9f9;
+  background-color: black;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -12,7 +12,7 @@ body {
   font-family: Arial, sans-serif;
   padding: 20px;
   text-align: left;
-  background-color: #f9f9f9;
+  background-color: black;
   max-width: 1000px;
   margin: 40px auto;
   padding: 40px;
@@ -46,7 +46,7 @@ body {
 }
 
 svg path:hover {
-  fill: #007bff !important;
+  fill: #109c84 !important;
   transition: none;
   cursor: pointer;
 }
@@ -79,19 +79,19 @@ svg path:hover {
   font-size: 14px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  background-color: #007bff;
+  background-color: #109c84;
   color: white;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 .ward-button:hover {
-  background-color: #0056b3; 
+  background-color: #0a6556; 
 }
 
 /* Highlighted SVG path when hovered over a button */
 .hovered-region {
-  fill: #007bff !important; /* Highlight color */
+  fill: #109c84 !important; /* Highlight color */
   transition: fill 0.2s ease, stroke 0.2s ease;
 }
 
