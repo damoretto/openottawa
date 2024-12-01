@@ -13,4 +13,25 @@
     border-radius: 5px;
     cursor: pointer;
   }
+
+  .svg-container {
+    width: 100%; /* Take the full width of the container */
+    max-width: 1200px; /* Optional: Limit the maximum size */
+    margin: 0; /* Align to the left */
+    padding: 0; /* Remove padding */
+  }
+  
+  .svg-container svg {
+    width: 100%; /* Scale the SVG to fit the container */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  svg path:hover {
+    fill: #007bff !important; /* Override any inline fills with !important */
+    stroke: #0056b3; /* Add a hover border */
+    stroke-width: 2px; /* Thicker border on hover */
+    filter: drop-shadow(0px 0px 5px rgba(0, 91, 187, 0.6)); /* Adds a glow effect */
+    transition: fill 0.3s ease, stroke-width 0.3s ease, filter 0.3s ease;
+    cursor: pointer;
+  }
   
