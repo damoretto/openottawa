@@ -1,4 +1,3 @@
-
 .home-container {
   font-family: Arial, sans-serif;
   padding: 20px;
@@ -8,26 +7,41 @@
   margin: 40px auto;
   padding: 40px;
   border-radius: 8px;
+  margin-top: 60px;
 }
+
 .header h1 {
   font-size: 40px;
-  margin: 0;
+  margin: 0 0 20px 0;
+  text-align: left; 
 }
+
+.main-content {
+  display: flex;
+  gap: 20px;
+}
+
 .svg-container {
+  flex: 3;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0;
+  border: 1px solid #ccc; 
+  border-radius: 8px;
 }
+
 .svg-container svg {
   width: 100%;
   height: auto;
 }
+
 svg path:hover {
   fill: #007bff !important;
   transition: none;
   cursor: pointer;
 }
+
 .tooltip {
   position: absolute;
   background: rgba(0, 0, 0, 0.75);
@@ -38,4 +52,31 @@ svg path:hover {
   pointer-events: none;
   white-space: nowrap;
   z-index: 1000;
+}
+
+.scrollable-panel {
+  flex: 1.5; 
+  max-height: 560px; 
+  overflow-y: scroll; 
+  border: 1px solid #ccc; 
+  border-radius: 8px;
+  padding: 10px;
+  background-color: white; 
+}
+
+.ward-button {
+  width: 100%;
+  margin: 5px 0;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ward-button:hover {
+  background-color: #0056b3; 
 }
