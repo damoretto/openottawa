@@ -32,7 +32,6 @@ function Home() {
   return (
     <div className="home-container">
       <h1>Select a Ward</h1>
-      <p>Explore the map below. Click on a ward to learn more about it.</p>
 
       <div
         dangerouslySetInnerHTML={{ __html: svgContent }}
