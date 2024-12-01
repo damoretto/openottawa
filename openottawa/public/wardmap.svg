@@ -59,7 +59,7 @@
       stroke-linecap="round"
       stroke-linejoin="round"
       id="somerset"
-      inkscape:label="somerset" />
+      title="Somerset" />
    <path
       fill-rule="evenodd"
       clip-rule="evenodd"
@@ -70,7 +70,7 @@
       stroke-linecap="round"
       stroke-linejoin="round"
       id="kanata-south"
-      inkscape:label="kanata-south" />
+      title="Kanata South" />
    <path
       fill-rule="evenodd"
       clip-rule="evenodd"
@@ -81,7 +81,7 @@
       stroke-linecap="round"
       stroke-linejoin="round"
       id="kanata-north"
-      inkscape:label="kanata-north" />
+      title="Kanata North" />
    <path
       fill-rule="evenodd"
       clip-rule="evenodd"
@@ -92,7 +92,7 @@
       stroke-linecap="round"
       stroke-linejoin="round"
       id="capital"
-      inkscape:label="capital" />
+      title="Capital" />
    <path
       fill-rule="evenodd"
       clip-rule="evenodd"
@@ -103,7 +103,7 @@
       stroke-linecap="round"
       stroke-linejoin="round"
       id="kitchisippi"
-      inkscape:label="kitchisippi" />
+      title="Kitchisippi" />
    <path
       fill-rule="evenodd"
       clip-rule="evenodd"
@@ -114,7 +114,7 @@
       stroke-linecap="round"
       stroke-linejoin="round"
       id="rideau-rockcliffe"
-      inkscape:label="rideau-rockcliffe" />
+      title="Rideau-Rockcliffe" />
    <path
       fill-rule="evenodd"
       clip-rule="evenodd"
@@ -125,7 +125,7 @@
       stroke-linecap="round"
       stroke-linejoin="round"
       id="orleans-east-cumberland"
-      inkscape:label="orleans-east-cumberland" />
+      title="Orléans East-Cumberland" />
    <path
       fill-rule="evenodd"
       clip-rule="evenodd"
@@ -136,7 +136,7 @@
       stroke-linecap="round"
       stroke-linejoin="round"
       id="alta_vista"
-      inkscape:label="alta vista" />
+      title="Alta Cista" />
    <path
       fill-rule="evenodd"
       clip-rule="evenodd"
@@ -147,7 +147,7 @@
       stroke-linecap="round"
       stroke-linejoin="round"
       id="river"
-      inkscape:label="river" />
+      title="River" />
    <path
       fill-rule="evenodd"
       clip-rule="evenodd"
@@ -158,7 +158,7 @@
       stroke-linecap="round"
       stroke-linejoin="round"
       id="bay"
-      inkscape:label="bay" />
+      title="Bay" />
    <path
       fill-rule="evenodd"
       clip-rule="evenodd"
@@ -169,7 +169,7 @@
       stroke-linecap="round"
       stroke-linejoin="round"
       id="knoxdale-merivale"
-      inkscape:label="knoxdale-merivale" />
+      title="Knoxdale-Merivale" />
    <path
       fill-rule="evenodd"
       clip-rule="evenodd"
@@ -180,7 +180,7 @@
       stroke-linecap="round"
       stroke-linejoin="round"
       id="stittsville"
-      inkscape:label="stittsville" />
+      title="Stittsville" />
    <path
       fill-rule="evenodd"
       clip-rule="evenodd"
@@ -191,7 +191,7 @@
       stroke-linecap="round"
       stroke-linejoin="round"
       id="orleans-south-navan"
-      inkscape:label="orleans-south-navan" />
+      title="Orléans South-Navan" />
    <path
       fill-rule="evenodd"
       clip-rule="evenodd"
@@ -202,7 +202,7 @@
       stroke-linecap="round"
       stroke-linejoin="round"
       id="beacon-hill-cyrville"
-      inkscape:label="beacon-hill-cyrville" />
+      title="Beacon Hill-Cyrville" />
    <path
       fill-rule="evenodd"
       clip-rule="evenodd"
@@ -213,7 +213,7 @@
       stroke-linecap="round"
       stroke-linejoin="round"
       id="gloucester-southgate"
-      inkscape:label="gloucester-southgate" />
+      title="Gloucester-Southgate" />
    <path
       fill-rule="evenodd"
       clip-rule="evenodd"
@@ -224,7 +224,7 @@
       stroke-linecap="round"
       stroke-linejoin="round"
       id="college"
-      inkscape:label="college" />
+      title="College" />
    <path
       fill-rule="evenodd"
       clip-rule="evenodd"
@@ -235,7 +235,7 @@
       stroke-linecap="round"
       stroke-linejoin="round"
       id="west-carleton-march"
-      inkscape:label="west-carleton-march" />
+      title="West Carleton-March" />
    <path
       fill-rule="evenodd"
       clip-rule="evenodd"
@@ -246,7 +246,7 @@
       stroke-linecap="round"
       stroke-linejoin="round"
       id="orleans-west-innes"
-      inkscape:label="orleans-west-innes" />
+      title="Orléans West-Innes" />
    <path
       fill-rule="evenodd"
       clip-rule="evenodd"
@@ -257,7 +257,7 @@
       stroke-linecap="round"
       stroke-linejoin="round"
       id="riverside-south-findlay-creek"
-      inkscape:label="riverside-south-findlay-creek" />
+      title="Riverside South Findlay-Creek" />
    <path
       fill-rule="evenodd"
       clip-rule="evenodd"
@@ -268,7 +268,7 @@
       stroke-linecap="round"
       stroke-linejoin="round"
       id="rideau-jock"
-      inkscape:label="rideau-jock" />
+      title="Rideau-Jock" />
    <path
       fill-rule="evenodd"
       clip-rule="evenodd"
@@ -279,7 +279,7 @@
       stroke-linecap="round"
       stroke-linejoin="round"
       id="rideau-vanier"
-      inkscape:label="rideau-vanier" />
+      title="Rideau-Vanier" />
    <path
       fill-rule="evenodd"
       clip-rule="evenodd"
@@ -290,7 +290,7 @@
       stroke-linecap="round"
       stroke-linejoin="round"
       id="osgoode"
-      inkscape:label="osgoode" />
+      title="Osgoode" />
    <path
       fill-rule="evenodd"
       clip-rule="evenodd"
@@ -301,7 +301,7 @@
       stroke-linecap="round"
       stroke-linejoin="round"
       id="barrhaven-east"
-      inkscape:label="barrhaven-east" />
+      title="Barrhaven East" />
    <path
       fill-rule="evenodd"
       clip-rule="evenodd"
@@ -312,5 +312,5 @@
       stroke-linecap="round"
       stroke-linejoin="round"
       id="barrhaven-west"
-      inkscape:label="barrhaven-west" />
+      title="Barrhaven West" />
 </svg>
