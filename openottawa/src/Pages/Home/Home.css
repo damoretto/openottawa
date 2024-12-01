@@ -27,9 +27,7 @@
   }
   
   svg path:hover {
-    fill: #007bff !important; /* Override any inline fills with !important */
-    stroke: #0056b3; /* Add a hover border */
-    stroke-width: 2px; /* Thicker border on hover */
-    transition: none; /* Immediate response on hover */
+    fill: #007bff !important;
+    transition: none;
     cursor: pointer;
   }
