@@ -40,11 +40,14 @@ function Home() {
     }
   };
 
-  // Handle region hover
+  // Handle hover on SVG paths only
   const handleMouseEnter = (e) => {
-    const regionTitle = e.target.getAttribute("title"); // Get the title attribute for hover
-    if (regionTitle) {
-      setHoveredRegion(regionTitle); // Display the title on hover
+    // Ensure the target is an SVG path
+    if (e.target.tagName === "path") {
+      const regionTitle = e.target.getAttribute("title"); // Get the title attribute for hover
+      if (regionTitle) {
+        setHoveredRegion(regionTitle); // Display the title on hover
+      }
     }
   };
 
@@ -54,8 +57,26 @@ function Home() {
   };
 
   // Clear hover state on mouse leave
-  const handleMouseLeave = () => {
-    setHoveredRegion(null);
+  const handleMouseLeave = (e) => {
+    if (e.target.tagName === "path") {
+      setHoveredRegion(null); // Clear hovered region
+    }
+  };
+
+  // Handle hover on buttons
+  const handleButtonHover = (regionTitle) => {
+    const regionPath = document.querySelector(`svg path[title="${regionTitle}"]`);
+    if (regionPath) {
+      regionPath.classList.add("hovered-region"); // Add hover class to region
+    }
+  };
+
+  // Handle button hover leave
+  const handleButtonLeave = (regionTitle) => {
+    const regionPath = document.querySelector(`svg path[title="${regionTitle}"]`);
+    if (regionPath) {
+      regionPath.classList.remove("hovered-region"); // Remove hover class
+    }
   };
 
   // List of buttons for the scrollable panel
@@ -96,11 +117,11 @@ function Home() {
         {/* SVG Map */}
         <div
           dangerouslySetInnerHTML={{ __html: svgContent }}
-          onClick={handleRegionClick} // Attach click handler
+          onClick={handleRegionClick} 
           className="svg-container"
           onMouseOver={handleMouseEnter}
           onMouseOut={handleMouseLeave}
-        />
+        ></div>
 
         {/* Scrollable Button Panel */}
         <div className="scrollable-panel">
@@ -108,7 +129,9 @@ function Home() {
             <button
               key={index}
               className="ward-button"
-              onClick={() => navigate(`/${ward.toLowerCase().replace(/ /g, "-")}`)}
+              onMouseEnter={() => handleButtonHover(ward)} 
+              onMouseLeave={() => handleButtonLeave(ward)}
+              onClick={() => navigate(`/${ward.toLowerCase().replace(/ /g, "-")}`)} 
             >
               {ward}
             </button>
@@ -116,7 +139,7 @@ function Home() {
         </div>
       </div>
 
-      {/* Tooltip for hovered region */}
+      {/* Tooltip for hovered region (only for SVG) */}
       {hoveredRegion && (
         <div
           className="tooltip"

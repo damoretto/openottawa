@@ -80,3 +80,10 @@ svg path:hover {
 .ward-button:hover {
   background-color: #0056b3; 
 }
+
+/* Highlighted SVG path when hovered over a button */
+.hovered-region {
+  fill: #007bff !important; /* Highlight color */
+  transition: fill 0.2s ease, stroke 0.2s ease;
+}
+
