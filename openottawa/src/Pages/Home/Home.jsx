@@ -4,7 +4,6 @@ import "./Home.css";
 
 function Home() {
   const [svgContent, setSvgContent] = useState(""); // State to hold the SVG content
-  const [tooltip, setTooltip] = useState({ visible: false, x: 0, y: 0, name: "" }); // Tooltip state
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -19,7 +18,6 @@ function Home() {
       .catch((error) => console.error("Error loading SVG:", error));
   }, []);
 
-  // Handle click events for regions
   const handleRegionClick = (e) => {
     const regionId = e.target.id;
     switch (regionId) {
@@ -36,8 +34,6 @@ function Home() {
       <h1>Select a Ward</h1>
       <p>Explore the map below. Click on a ward to learn more about it.</p>
 
-
-      {/* Render the SVG map dynamically */}
       <div
         dangerouslySetInnerHTML={{ __html: svgContent }}
         onClick={handleRegionClick}
