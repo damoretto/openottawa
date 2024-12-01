@@ -1,40 +1,41 @@
-.home-container {
-    font-family: Arial, sans-serif;
-    padding: 20px;
-    text-align: left;
-    background-color: #f9f9f9;
-    max-width: 1000px; 
-    margin: 40px auto; 
-    padding: 40px; 
-    border-radius: 8px; 
-  }
-  .header h1 {
-    font-size: 40px;
-    margin: 0;
-  }
-  .button {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-  }
 
-  .svg-container {
-    width: 100%; /* Take the full width of the container */
-    max-width: 1200px; /* Optional: Limit the maximum size */
-    margin: 0; /* Align to the left */
-    padding: 0; /* Remove padding */
-  }
-  
-  .svg-container svg {
-    width: 800px; /* Scale the SVG to fit the container */
-    height: auto; /* Maintain aspect ratio */
-  }
-  
-  svg path:hover {
-    fill: #007bff !important;
-    transition: none;
-    cursor: pointer;
-  }
+.home-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: left;
+  background-color: #f9f9f9;
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 40px;
+  border-radius: 8px;
+}
+.header h1 {
+  font-size: 40px;
+  margin: 0;
+}
+.svg-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+}
+.svg-container svg {
+  width: 100%;
+  height: auto;
+}
+svg path:hover {
+  fill: #007bff !important;
+  transition: none;
+  cursor: pointer;
+}
+.tooltip {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  pointer-events: none;
+  white-space: nowrap;
+  z-index: 1000;
+}
