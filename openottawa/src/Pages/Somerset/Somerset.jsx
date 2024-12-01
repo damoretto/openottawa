@@ -45,7 +45,7 @@ function Somerset() {
             <div className="audio-container">
               <p>Hear FirstName's story:</p>
               <audio controls className="audio-player">
-                <source src="file_name.mp3" type="audio/mpeg" /> /* add file name
+                <source src="somerset-interview.mp3" type="audio/mpeg" /> /* add file name
                 Your browser does not support the audio element.
               </audio>
             </div>
