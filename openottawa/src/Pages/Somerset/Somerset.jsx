@@ -1,13 +1,18 @@
 import React from "react";
 import "./Somerset.css";
+import { useNavigate } from "react-router-dom";
 
 function Somerset() {
+  const navigate = useNavigate();
+
   return (
     <div className="container">
       {/* Header Section */}
       <header className="header">
         <h1>SOMERSET - WARD 14</h1>
-        <button className="button">Choose another ward</button>
+        <button className="button" onClick={() => navigate("/")}>
+          Back to Ward Select
+        </button>
       </header>
 
       {/* Power BI iframe */}
