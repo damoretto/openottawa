@@ -3,8 +3,15 @@
     padding: 20px;
     text-align: left;
     background-color: #f9f9f9;
+    max-width: 1000px; 
+    margin: 40px auto; 
+    padding: 40px; 
+    border-radius: 8px; 
   }
-  
+  .header h1 {
+    font-size: 40px;
+    margin: 0;
+  }
   .button {
     background-color: #007bff;
     color: white;

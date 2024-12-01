@@ -31,7 +31,10 @@ function Home() {
 
   return (
     <div className="home-container">
-      <h1>Select a Ward</h1>
+
+      <header className="header">
+        <h1>SELECT A WARD</h1>
+      </header>
 
       <div
         dangerouslySetInnerHTML={{ __html: svgContent }}
