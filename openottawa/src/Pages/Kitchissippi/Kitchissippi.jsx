@@ -38,7 +38,7 @@ function Kitchissippi() {
           />
           <div className="details">
             <p><strong>Owner of "Nomads Coffee"</strong></p>
-            <p>Born in:</p>
+            <p>Born in: Ottawa, ON</p>
             <p>
               <em>“Quote about how they used Open Ottawa data to do something”</em>
             </p>
