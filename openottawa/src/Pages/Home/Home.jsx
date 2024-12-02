@@ -32,7 +32,7 @@ function Home() {
           navigate("/orleans-south-navan");
           break;
         case "somerset":
-          navigate("/somerset");
+          navigate("/somerset"); // add other wards
           break;
         default:
           console.log(`Clicked on an unrecognized region: ${regionId}`);
@@ -110,7 +110,7 @@ function Home() {
   return (
     <div className="home-container" onMouseMove={handleMouseMove}>
       <header className="header">
-        <h1>SELECT A WARD</h1>
+        <h1>SELECT A WARD:</h1>
       </header>
 
       <div className="main-content">

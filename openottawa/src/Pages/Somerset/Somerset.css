@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Roboto Flex", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #E9ECEF; /* Light background */
+  background: linear-gradient(to bottom right, #67AAB5, #F6C700); /* Gradient from top-left to bottom-right */
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  min-height: 100vh; /* Ensure the gradient covers the entire viewport */
 }
 
 .container {
@@ -34,12 +37,13 @@ body {
   padding: 10px 20px;
   border-radius: 8px;
   cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.2s ease;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
 }
 
 .button:hover {
   background-color: #12454F; /* Dark teal */
   transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .dashboard-container {
@@ -55,10 +59,15 @@ body {
 }
 
 .content h2 {
-  font-size: 30px;
-  margin-bottom: 10px;
-  color: #12454F; /* Dark teal for headings */
+  font-size: 36px;
+  text-align: left;
+  color: #12454F;
+   background-color: #F6C700; /* Yellow background */
+  display: inline;
+  padding: 0 8px; /* Adds padding around the text */
+  border-radius: 4px; /* Optional rounded edges */
 }
+  
 
 .image-container {
   display: flex;
@@ -123,9 +132,9 @@ body {
   position: absolute;
   top: 20px;
   left: 20px;
-  background-color: #67AAB5; /* Light teal */
-  color: white;
-  border: none;
+  background-color: #F6C700; /* Rich yellow */
+  color: #12454F; /* Dark teal text for contrast */
+  border: 2px solid #12454F; /* Dark teal border for definition */
   padding: 10px 20px;
   border-radius: 8px;
   cursor: pointer;
@@ -133,10 +142,12 @@ body {
   display: flex;
   align-items: center;
   text-decoration: none;
-  transition: background-color 0.3s ease, transform 0.2s ease;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
 }
 
 .back-button:hover {
-  background-color: #12454F; /* Dark teal */
+  background-color: #12454F; /* Dark teal background */
+  color: #F6C700; /* Yellow text */
   transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Slightly enhanced shadow */
 }
