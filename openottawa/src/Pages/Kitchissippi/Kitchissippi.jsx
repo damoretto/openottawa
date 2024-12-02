@@ -34,7 +34,7 @@ function Kitchissippi() {
         <div className="image-container">
           <img
             className="storyteller-image"
-            src="/guy.jpg" // Replace with actual image path
+            src="/Faisal.jpg" // Replace with actual image path
             alt="Storyteller"
           />
           <div className="details">
