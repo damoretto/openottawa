@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f9f9f9;
+  background-color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -10,10 +10,14 @@ body {
 
 .container {
   max-width: 1000px; 
+  max-height: fit-content;
   margin: 40px auto; 
   padding: 40px; 
   border-radius: 8px; 
-  margin-top: 60px;
+  margin-top: 80px;
+  border: 5px solid #109c84; /* Outer border */
+  box-shadow: inset 0 0 0 5px #3e4a82; /* Inner border (second color) */
+  background-color: white;
 }
 
 .header {
@@ -26,7 +30,7 @@ body {
 .header h1 {
   font-size: 40px;
   margin: 0;
-  color: black; 
+  color: white; 
 }
 
 .button {
