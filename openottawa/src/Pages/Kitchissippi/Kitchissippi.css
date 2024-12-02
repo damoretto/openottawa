@@ -31,7 +31,7 @@ body {
 }
 
 .button {
-  background-color: #67AAB5; 
+  background-color: #12454F; 
   color: white;
   border: none;
   padding: 10px 20px;
@@ -41,13 +41,38 @@ body {
 }
 
 .button:hover {
-  background-color: #12454F; 
+  background-color: #0b2a30; 
   transform: translateY(-2px);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .dashboard-container {
   margin: 20px 0;
+  position: relative;
+}
+
+.export-button {
+  display: inline-block;
+  margin: 10px 0;
+  padding: 8px 16px;
+  background-color: #12454F; /* Dark teal to match the theme */
+  color: #fff; /* White text for contrast */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer;
+  font-size: 14px; /* Matching the transcript button font size */
+  font-family: "Roboto Flex", sans-serif; /* Themed font */
+  position: absolute; /* Align the button to the right below the dashboard */
+  bottom: -25px; /* Space below the dashboard */
+  right: 20px; /* Align to the right with some padding */
+  z-index: 100;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease; /* Smooth transitions */
+}
+
+.export-button:hover {
+  background-color: #0b2a30; /* Slightly darker shade on hover */
+  transform: translateY(-2px); /* Subtle lift on hover */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
 }
 
 .dashboard {
@@ -59,7 +84,7 @@ body {
   /*box-shadow: 0 4px 12px #12454F, 0 -4px 12px #F6C700;*/
   border: 2px solid #67AAB5; 
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-  margin-bottom: 15px;
+  margin-bottom: 35px;
 }
 
 .content h2 {
@@ -92,6 +117,7 @@ body {
   border-radius: 8px;
   object-fit: cover;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
+  margin-bottom: 30px;
 }
 
 .details {
@@ -167,7 +193,7 @@ body {
   max-width: 275px;
   object-fit: cover;
   background-color: #D6DEE2; 
-  border: 2px solid #67AAB5; 
+  border: 2px solid #12454F; 
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
 }
 
@@ -206,7 +232,9 @@ body {
 
 .demographics h2 {
   margin-bottom: 15px;
-  color: #333;
+  font-size: 28px; /* Slightly larger for emphasis */
+  font-family: "Roboto Flex", sans-serif;
+  color: #12454F; /* Themed dark teal */
 }
 
 .demographics ul {
@@ -216,13 +244,14 @@ body {
 
 .demographics ul ul {
   margin-left: 20px;
-  list-style-type: disc;
+  list-style-type: disc; /* Retain disc style for sublists */
 }
 
 .demographics li {
   margin-bottom: 10px;
-  font-size: 16px;
-  color: #555;
+  font-size: 18px; /* Slightly larger font for readability */
+  color: #555555;
+  font-family: "Roboto Flex", sans-serif;
 }
 
 .highlight {
@@ -230,14 +259,15 @@ body {
   padding: 15px;
   border-left: 5px solid #ffcc00;
   background-color: #fff8e1;
-  color: #555;
+  color: #12454F;
 }
 
 .highlight h3 {
   margin-bottom: 10px;
-  color: #333;
+  font-size: 20px;
+  color: #12454F; /* Matches the theme */
+  font-family: "Roboto Flex", sans-serif;
 }
-
 
 .feedback {
   margin: 20px 0;
@@ -250,79 +280,95 @@ body {
 .feedback h2 {
   margin-bottom: 10px;
   font-size: 24px;
-  color: #333;
+  font-family: "Roboto Flex", sans-serif;
+  color: #12454F; /* Themed dark teal */
 }
 
 .feedback p {
   margin-bottom: 15px;
   font-size: 16px;
-  color: #555;
+  font-family: "Roboto Flex", sans-serif;
+  color: #555555;
 }
 
 .feedback form {
   display: flex;
-  flex-direction: column;
-  gap: 10px;
+  flex-direction: column; /* Arrange elements vertically */
+  gap: 10px; /* Space between elements */
+  width: 100%; /* Ensure the form takes full width */
 }
 
 .feedback textarea {
-  width: 100%;
-  padding: 10px;
-  font-size: 14px;
+  width: 100%; /* Make the textarea match the form's width */
+  max-width: 100%; /* Prevent it from exceeding the form's width */
+  padding: 10px 15px; /* Adjust padding for better alignment */
+  font-size: 16px; /* Slightly larger font for readability */
   border: 1px solid #ccc;
-  border-radius: 4px;
-  resize: vertical;
-  outline: none;
+  border-radius: 8px; /* Rounded corners for consistency */
+  resize: vertical; /* Allow vertical resizing only */
+  outline: none; /* Remove default browser outline */
+  font-family: "Roboto Flex", sans-serif; /* Themed font */
+  color: #12454F; /* Themed text color */
+  box-sizing: border-box; /* Include padding in width calculation */
 }
 
 .feedback textarea:focus {
-  border-color: #007bff;
-  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  border-color: #12454F; /* Change border color on focus */
+  box-shadow: 0 0 8px rgba(18, 69, 79, 0.5); /* Subtle focus effect */
 }
+
 
 .feedback button {
   width: 150px;
   padding: 10px;
   font-size: 16px;
-  color: #fff;
-  background-color: #007bff;
+  color: #ffffff; /* White text */
+  background-color: #12454F; /* Themed button background */
   border: none;
-  border-radius: 4px;
+  border-radius: 8px;
   cursor: pointer;
   align-self: flex-start;
+  font-family: "Roboto Flex", sans-serif;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
 }
 
 .feedback button:hover {
-  background-color: #0056b3;
+  background-color: #0b2a30; /* Dark teal hover */
+  transform: translateY(-2px); /* Subtle lift */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Hover shadow */
 }
-
 
 .history {
   margin: 20px 0;
   padding: 20px;
   border: 1px solid #ccc;
-  border-radius: 8px;
+  border-radius: 12px;
   background-color: #f9f9f9;
 }
 
 .history h2 {
   margin-bottom: 15px;
-  color: #333;
+  font-size: 24px;
+  font-family: "Roboto Flex", sans-serif;
+  color: #12454F; /* Themed dark teal */
 }
 
 .history p {
   margin-bottom: 10px;
   font-size: 16px;
-  color: #555;
   line-height: 1.6;
+  color: #555555;
+  font-family: "Roboto Flex", sans-serif;
 }
 
 .history a {
-  color: #007bff;
+  color: #67AAB5; /* Themed link color */
   text-decoration: none;
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 500; /* Slightly bold for emphasis */
 }
 
 .history a:hover {
   text-decoration: underline;
+  color: #12454F; /* Dark teal hover effect */
 }
-

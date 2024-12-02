@@ -30,12 +30,15 @@ function Kitchissippi() {
 
       {/* Power BI iframe */}
       <div className="dashboard-container">
-        <img
-          src="./dashboardks.png" // Replace with actual Power BI link
-          className="dashboard"
-          frameBorder="0"
-        />
+       <img
+         src="./dashboardks.png" // Replace with actual Power BI link
+         className="dashboard"
+         frameBorder="0"
+  />
+  {/* Export Button */}
+       <button className="export-button">Export</button>
       </div>
+
 
       {/* Main Content */}
       <div className="content">
@@ -80,13 +83,6 @@ function Kitchissippi() {
           </div>
         </div>
 
-        {/* Body Text */}
-        <div className="body-text">
-          <p>
-          Kitchissippi Ward, designated as Ward 15 in Ottawa, derives its name from the Algonquin word "Kitchissippi," meaning "Great River," a reference to the Ottawa River that forms its northern boundary. This area encompasses several historic neighborhoods, including Westboro, Hintonburg, Mechanicsville, and Wellington Village, each contributing to the ward's rich cultural tapestry.
-          </p>
-        </div>
-
 
         <div className="history">
   <h2>A Brief History of Kitchissippi</h2>
@@ -101,17 +97,17 @@ function Kitchissippi() {
         <div className="image-gallery">
           <img
             className="image-placeholder"
-            src="https://via.placeholder.com/150"
+            src="/italy.png"
             alt="Gallery 1"
           />
           <img
             className="image-placeholder"
-            src="https://via.placeholder.com/150"
+            src="/parkdale.png"
             alt="Gallery 2"
           />
           <img
             className="image-placeholder"
-            src="https://via.placeholder.com/150"
+            src="/chinatown.jpg"
             alt="Gallery 3"
           />
         </div>
