@@ -4,7 +4,7 @@ body {
   font-family: "Roboto Flex", sans-serif;
   margin: 0;
   padding: 0;
-  background: linear-gradient(to bottom right, #67AAB5, #F6C700); /* Gradient from top-left to bottom-right */
+  background: linear-gradient(to bottom right, #67AAB5, #3e4a82); /* Gradient from top-left to bottom-right */
   display: flex;
   justify-content: center;
   align-items: flex-start;
