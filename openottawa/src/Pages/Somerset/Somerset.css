@@ -15,8 +15,6 @@ body {
   padding: 40px; 
   border-radius: 8px; 
   margin-top: 80px;
-  border: 5px solid #109c84; /* Outer border */
-  box-shadow: inset 0 0 0 5px #3e4a82; /* Inner border (second color) */
   background-color: white;
 }
 

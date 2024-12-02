@@ -3,12 +3,11 @@ body {
   margin: 0;
   padding: 0;
   background:
-  100px 100px/calc(2*100px) calc(2*100px) conic-gradient(at calc(500%/6) 50%,#ffffff 25%,#0000 0),0 0/calc(2*100px) calc(2*100px) conic-gradient(at calc(500%/6) 50%,#ffffff 25%,#0000 0),
-  100px 100px/calc(2*100px) calc(2*100px) conic-gradient(at calc(200%/3) 50%,rgba(16, 156, 132, 0.62) 25%,#0000 0),0 0/calc(2*100px) calc(2*100px) conic-gradient(at calc(200%/3) 50%,rgba(16, 156, 132, 0.62) 25%,#0000 0),
-  repeating-conic-gradient(rgba(62, 72, 163, 0.6) 0 25%,#0000 0 50%) 0 0/calc(2*100px) calc(2*100px),
-  linear-gradient(rgba(62, 72, 163, 0.6) calc(100%/3),rgba(16, 156, 132, 0.62) 0 calc(200%/3),#ffffff 0)
-   0 0/100px 100px;
-
+  radial-gradient(100% 100% at 100% 100%, #0000 46%,rgba(16, 156, 132, 0.32) 47% 53%,#0000 54%) 100px 100px,
+  radial-gradient(100% 100% at 0 0, #0000 46%,rgba(16, 156, 132, 0.32) 47% 53%,#0000 54%) 100px 100px,
+  radial-gradient(100% 100%, #0000 22%, rgba(16, 156, 132, 0.32) 23% 29%, #0000 30% 34%, rgba(16, 156, 132, 0.32) 35% 41%, #0000 42%)
+  #ffffff;
+  background-size: 200px 200px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -21,8 +20,6 @@ body {
   max-width: 1000px;
   margin: 40px auto;
   padding: 40px;
-  border: 5px solid #109c84; /* Outer border */
-  box-shadow: inset 0 0 0 5px #3e4a82; /* Inner border (second color) */
   border-radius: 8px;
   margin-top: 80px;
   background-color: white;
