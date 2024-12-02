@@ -19,8 +19,8 @@ body {
   border-radius: 12px; 
   margin-top: 80px;
   background-color: white;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Subtle container shadow */
-  border: 3px solid #67AAB5; /* Soft border */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); 
+  border: 3px solid #67AAB5; 
 }
 
 .header {
@@ -31,7 +31,7 @@ body {
 }
 
 .button {
-  background-color: #67AAB5; /* Light teal */
+  background-color: #67AAB5; 
   color: white;
   border: none;
   padding: 10px 20px;
@@ -41,7 +41,7 @@ body {
 }
 
 .button:hover {
-  background-color: #12454F; /* Dark teal */
+  background-color: #12454F; 
   transform: translateY(-2px);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
@@ -55,9 +55,9 @@ body {
   height: 300px;
   border-radius: 12px; 
   object-fit: contain;
-  background-color: #AAB3BA; /* Neutral background for dashboard */
+  background-color: #ffffff; 
   /*box-shadow: 0 4px 12px #12454F, 0 -4px 12px #F6C700;*/
-  border: 2px solid #67AAB5; /* Soft teal border */
+  border: 2px solid #67AAB5; 
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
 }
 
@@ -65,10 +65,10 @@ body {
   font-size: 36px;
   text-align: left;
   color: #12454F;
-  background-color: #F6C700; /* Yellow background */
+  background-color: #F6C700;
   display: inline;
-  padding: 0 8px; /* Adds padding around the text */
-  border-radius: 4px; /* Optional rounded edges */
+  padding: 0 8px; 
+  border-radius: 4px; 
 }
 
 .content p {
@@ -90,18 +90,18 @@ body {
   max-width: 250px;
   border-radius: 8px;
   object-fit: cover;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Subtle shadow */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
 }
 
 .details {
   flex: 1;
-  color: #12454F; /* Dark teal text for details */
+  color: #12454F; 
   font-size: 16px;
 }
 
 .details p {
   margin: 5px 0;
-  line-height: 1.6; /* Improved readability */
+  line-height: 1.6; 
   font-size: 16px;
 }
 
@@ -118,7 +118,7 @@ body {
   font-size: 16px;
   margin: 40px 0;
   line-height: 1.8; 
-  color: #12454F; /* Dark teal for body text */
+  color: #12454F; 
 }
 
 .image-gallery {
@@ -134,8 +134,8 @@ body {
   border-radius: 8px;
   max-width: 275px;
   object-fit: cover;
-  background-color: #D6DEE2; /* Light neutral background */
-  border: 2px solid #67AAB5; /* Soft teal border */
+  background-color: #D6DEE2; 
+  border: 2px solid #67AAB5; 
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
 }
 
@@ -143,9 +143,9 @@ body {
   position: absolute;
   top: 20px;
   left: 20px;
-  background-color: #F6C700; /* Rich yellow */
-  color: #12454F; /* Dark teal text for contrast */
-  border: 2px solid #12454F; /* Dark teal border for definition */
+  background-color: #F6C700; 
+  color: #12454F; 
+  border: 2px solid #12454F; 
   padding: 10px 20px;
   border-radius: 8px;
   cursor: pointer;
@@ -157,8 +157,8 @@ body {
 }
 
 .back-button:hover {
-  background-color: #12454F; /* Dark teal background */
-  color: #F6C700; /* Yellow text */
+  background-color: #12454F; 
+  color: #F6C700; 
   transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Slightly enhanced shadow */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
 }
