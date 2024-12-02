@@ -2,12 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background:
-  radial-gradient(100% 100% at 100% 100%, #0000 46%,rgba(16, 156, 132, 0.32) 47% 53%,#0000 54%) 100px 100px,
-  radial-gradient(100% 100% at 0 0, #0000 46%,rgba(16, 156, 132, 0.32) 47% 53%,#0000 54%) 100px 100px,
-  radial-gradient(100% 100%, #0000 22%, rgba(16, 156, 132, 0.32) 23% 29%, #0000 30% 34%, rgba(16, 156, 132, 0.32) 35% 41%, #0000 42%)
-  #ffffff;
-  background-size: 200px 200px;
+  background-color: #E9ECEF;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -15,21 +10,20 @@ body {
 
 .home-container {
   font-family: Arial, sans-serif;
-  padding: 20px;
+  padding: 40px;
   text-align: left;
   max-width: 1000px;
-  margin: 40px auto;
-  padding: 40px;
-  border-radius: 8px;
-  margin-top: 80px;
-  background-color: white;
+  margin: 80px auto;
+  border-radius: 12px;
+  background-color: #FFFFFF;
+  border: 3px solid #67AAB5;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .header h1 {
-  font-size: 40px;
-  margin: 0 0 20px 0;
-  text-align: left; 
-  color: black !important;
+  font-size: 36px;
+  text-align: left;
+  color: #12454F;
 }
 
 .main-content {
@@ -41,63 +35,69 @@ body {
   flex: 3;
   width: 100%;
   max-width: 1200px;
-  margin: 0 auto;
-  padding: 0;
-  border-radius: 8px;
+  border-radius: 12px;
+  background-color: #B9BCBE;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .svg-container svg {
   width: 100%;
   height: auto;
+  border-radius: 12px;
 }
 
 svg path:hover {
-  fill: #109c84 !important;
-  transition: none;
+  fill: #12454F;
   cursor: pointer;
+  transition: fill 0.3s ease;
 }
 
 .tooltip {
   position: absolute;
-  background: rgba(0, 0, 0, 0.75);
+  background: linear-gradient(135deg, #67AAB5, #12454F); /* Gradient using different teals */
   color: white;
-  padding: 5px 10px;
-  border-radius: 4px;
+  padding: 8px 12px;
+  border-radius: 6px;
   font-size: 12px;
   pointer-events: none;
   white-space: nowrap;
   z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  border: 2px solid #B9BCBE;
 }
 
 .scrollable-panel {
-  flex: 1.5; 
-  max-height: 480px; 
-  overflow-y: scroll; 
-  border-radius: 8px;
-  padding: 10px;
-  background-color: white; 
+  flex: 1.5;
+  max-height: 480px;
+  overflow-y: auto;
+  border-radius: 12px;
+  padding: 16px;
+  background-color: #FFFFFF;
+  border: 2px solid #67AAB5;
+  box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 .ward-button {
   width: 100%;
-  margin: 5px 0;
-  padding: 10px;
-  font-size: 14px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  background-color: #109c84;
+  margin: 10px 0;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #67AAB5;
   color: white;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .ward-button:hover {
-  background-color: #0a6556; 
+  background-color: #12454F;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* Highlighted SVG path when hovered over a button */
 .hovered-region {
-  fill: #109c84 !important; /* Highlight color */
-  transition: fill 0.2s ease, stroke 0.2s ease;
+  fill: #12454F;
+  transition: fill 0.3s ease;
 }
-
