@@ -13,6 +13,9 @@ function Kitchissippi() {
           ← Back to Ward Select
         </button>
         <h1>KITCHISSIPPI - WARD 15</h1>
+
+
+        
       </header>
 
       {/* Power BI iframe */}
@@ -40,7 +43,7 @@ function Kitchissippi() {
             <p><strong>Owner of "Nomads Coffee"</strong></p>
             <p>Born in: Ottawa, ON</p>
             <p>
-              <em>“Quote about how they used Open Ottawa data to do something”</em>
+              <em>“Coffee is a big part of Middle Eastern culture, and I wanted to share that rich tradition and sense of celebration here in Ottawa.”</em>
             </p>
 
             {/* Audio Player */}
@@ -57,9 +60,19 @@ function Kitchissippi() {
         {/* Body Text */}
         <div className="body-text">
           <p>
-            Add a little bit of body text. Add a little bit of body text. Add a little bit of body text. Add a little bit of body text. Add a little bit of body text. Add a little bit of body text. Add a little bit of body text. Add a little bit of body text.
+          Kitchissippi Ward, designated as Ward 15 in Ottawa, derives its name from the Algonquin word "Kitchissippi," meaning "Great River," a reference to the Ottawa River that forms its northern boundary. This area encompasses several historic neighborhoods, including Westboro, Hintonburg, Mechanicsville, and Wellington Village, each contributing to the ward's rich cultural tapestry.
           </p>
         </div>
+
+
+        <div className="history">
+  <h2>A Brief History of Kitchissippi</h2>
+  <p>
+    Kitchissippi Ward, designated as Ward 15 in Ottawa, derives its name from the Algonquin word "Kitchissippi," meaning "Great River," a reference to the Ottawa River that forms its northern boundary. This area encompasses several historic neighborhoods, including Westboro, Hintonburg, Mechanicsville, and Wellington Village, each contributing to the ward's rich cultural tapestry.
+  </p>
+  
+</div>
+
 
         {/* Image Gallery */}
         <div className="image-gallery">
@@ -80,14 +93,58 @@ function Kitchissippi() {
           />
         </div>
 
+
+
+        <div className="demographics">
+  <h2>Key Demographics</h2>
+  <ul>
+    <li><strong>Population Size:</strong> 37,035</li>
+    <li><strong>Languages Spoken:</strong></li>
+    <ul>
+      <li>English only: 20,855 speakers (65.72%)</li>
+      <li>French only: 245 speakers (0.77%)</li>
+      <li>Italian: 2,150 speakers (6.77%)</li>
+      <li>Arabic: 775 speakers (2.44%)</li>
+      <li>Mandarin: 635 speakers (2.00%)</li>
+    </ul>
+    <li><strong>Median Household Income:</strong> $212,000</li>
+    <li><strong>Average Dwelling Value:</strong> $892,000</li>
+  </ul>
+
+  {/* Highlight Section */}
+  <div className="highlight">
+    <h3>Italian Heritage in Kitchissippi</h3>
+    <p>
+      Kitchissippi Ward is proudly home to Ottawa’s historic Little Italy, where Italian culture thrives. With 2,150 Italian speakers (6.77%), the language is the most spoken non-official language in the ward. This cultural influence is reflected in the local community, from vibrant festivals to authentic Italian cuisine along Preston Street, the heart of Little Italy.
+    </p>
+  </div>
+</div>
+
+
         {/* Body Text */}
         <div className="body-text">
           <p>
             Add a little bit of body text. Add a little bit of body text. Add a little bit of body text. Add a little bit of body text. Add a little bit of body text. Add a little bit of body text. Add a little bit of body text. Add a little bit of body text.
           </p>
         </div>
+
+
+
+        <div className="feedback">
+  <h2>Share Your Story</h2>
+  <p>Do you have a story about Kitchissippi? Share it with us!</p>
+  <form>
+    <textarea placeholder="Your story..." rows="5" required></textarea>
+    <button type="submit">Submit</button>
+  </form>
+</div>
+
+
+
       </div>
     </div>
+
+    
   );
 }
 
