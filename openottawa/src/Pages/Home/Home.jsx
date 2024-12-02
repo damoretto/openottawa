@@ -31,6 +31,9 @@ function Home() {
         case "orleans-south-navan":
           navigate("/orleans-south-navan");
           break;
+        case "kitchissippi":
+          navigate("/kitchissippi");
+          break;
         case "somerset":
           navigate("/somerset"); // add other wards
           break;
