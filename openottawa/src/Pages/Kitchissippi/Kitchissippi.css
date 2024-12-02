@@ -59,6 +59,7 @@ body {
   /*box-shadow: 0 4px 12px #12454F, 0 -4px 12px #F6C700;*/
   border: 2px solid #67AAB5; 
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
 }
 
 .content h2 {
