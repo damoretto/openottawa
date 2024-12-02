@@ -54,9 +54,20 @@ function Home() {
     }
   };
 
-  // Update tooltip position on mouse move
   const handleMouseMove = (e) => {
-    setTooltipPosition({ x: e.clientX, y: e.clientY });
+    const tooltipX = e.clientX + 10; // Offset tooltip position to avoid overlap
+    const tooltipY = e.clientY + 10;
+  
+    // Ensure tooltip stays within viewport bounds
+    const viewportWidth = window.innerWidth;
+    const viewportHeight = window.innerHeight;
+    const tooltipWidth = 150; // Estimated tooltip width
+    const tooltipHeight = 50; // Estimated tooltip height
+  
+    setTooltipPosition({
+      x: Math.min(tooltipX + window.scrollX, viewportWidth - tooltipWidth + window.scrollX),
+      y: Math.min(tooltipY + window.scrollY, viewportHeight - tooltipHeight + window.scrollY),
+    });
   };
 
   // Clear hover state on mouse leave
@@ -120,7 +131,7 @@ function Home() {
         {/* SVG Map */}
         <div
           dangerouslySetInnerHTML={{ __html: svgContent }}
-          onClick={handleRegionClick} 
+          onClick={handleRegionClick}
           className="svg-container"
           onMouseOver={handleMouseEnter}
           onMouseOut={handleMouseLeave}
@@ -132,9 +143,9 @@ function Home() {
             <button
               key={index}
               className="ward-button"
-              onMouseEnter={() => handleButtonHover(ward)} 
+              onMouseEnter={() => handleButtonHover(ward)}
               onMouseLeave={() => handleButtonLeave(ward)}
-              onClick={() => navigate(`/${ward.toLowerCase().replace(/ /g, "-")}`)} 
+              onClick={() => navigate(`/${ward.toLowerCase().replace(/ /g, "-")}`)}
             >
               {ward}
             </button>
@@ -147,8 +158,8 @@ function Home() {
         <div
           className="tooltip"
           style={{
-            top: `${tooltipPosition.y + 10}px`,
-            left: `${tooltipPosition.x + 10}px`,
+            top: `${tooltipPosition.y}px`,
+            left: `${tooltipPosition.x}px`,
           }}
         >
           {hoveredRegion}
