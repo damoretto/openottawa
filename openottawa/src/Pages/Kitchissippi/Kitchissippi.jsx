@@ -47,7 +47,7 @@ function Kitchissippi() {
             <div className="audio-container">
               <p>Hear Faisal's story:</p>
               <audio controls className="audio-player">
-                <source src="Nomads-Coffee.mp3" type="audio/mpeg" />
+                <source src="NomadsCoffee.mp3" type="audio/mpeg" />
                 Your browser does not support the audio element.
               </audio>
             </div>
