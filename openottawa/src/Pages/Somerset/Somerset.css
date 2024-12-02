@@ -62,12 +62,17 @@ body {
   font-size: 36px;
   text-align: left;
   color: #12454F;
-   background-color: #F6C700; /* Yellow background */
+  background-color: #F6C700; /* Yellow background */
   display: inline;
   padding: 0 8px; /* Adds padding around the text */
   border-radius: 4px; /* Optional rounded edges */
 }
-  
+
+.content p {
+  font-size: 20px;
+  text-align: left;
+  color: #12454F;
+}
 
 .image-container {
   display: flex;
@@ -88,11 +93,13 @@ body {
 .details {
   flex: 1;
   color: #12454F; /* Dark teal text for details */
+  font-size: 16px;
 }
 
 .details p {
   margin: 5px 0;
   line-height: 1.6; /* Improved readability */
+  font-size: 16px;
 }
 
 .audio-container {
@@ -104,7 +111,8 @@ body {
   max-width: 800px; 
 }
 
-.body-text {
+.body-text p {
+  font-size: 16px;
   margin: 40px 0;
   line-height: 1.8; 
   color: #12454F; /* Dark teal for body text */

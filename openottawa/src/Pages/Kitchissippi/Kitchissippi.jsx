@@ -28,7 +28,7 @@ function Kitchissippi() {
       {/* Main Content */}
       <div className="content">
         <h2><em>Welcome to Kitchissippi</em></h2>
-        <p>Home of : <strong>Firstname Lastname</strong></p>
+        <p>Home of : <strong>Faisal Ghali</strong></p>
 
         {/* Storyteller Section */}
         <div className="image-container">
@@ -38,7 +38,7 @@ function Kitchissippi() {
             alt="Storyteller"
           />
           <div className="details">
-            <p><strong>Owner of “restaurant”</strong></p>
+            <p><strong>Owner of "Nomads Coffee"</strong></p>
             <p>Born in:</p>
             <p>
               <em>“Quote about how they used Open Ottawa data to do something”</em>
@@ -46,7 +46,7 @@ function Kitchissippi() {
 
             {/* Audio Player */}
             <div className="audio-container">
-              <p>Hear FirstName's story:</p>
+              <p>Hear Faisal's story:</p>
               <audio controls className="audio-player">
                 <source src="somerset-interview.mp3" type="audio/mpeg" />
                 Your browser does not support the audio element.
