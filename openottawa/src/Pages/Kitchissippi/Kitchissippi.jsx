@@ -79,6 +79,7 @@ function Kitchissippi() {
             </div>
           </div>
         </div>
+
         {/* Body Text */}
         <div className="body-text">
           <p>
@@ -143,12 +144,6 @@ function Kitchissippi() {
 </div>
 
 
-        {/* Body Text */}
-        <div className="body-text">
-          <p>
-            Add a little bit of body text. Add a little bit of body text. Add a little bit of body text. Add a little bit of body text. Add a little bit of body text. Add a little bit of body text. Add a little bit of body text. Add a little bit of body text.
-          </p>
-        </div>
 
 
 
