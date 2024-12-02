@@ -54,8 +54,11 @@ body {
   width: 100%;
   height: 300px;
   border-radius: 12px; 
-  background-color: #B9BCBE; /* Neutral background for dashboard */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  object-fit: contain;
+  background-color: #AAB3BA; /* Neutral background for dashboard */
+  /*box-shadow: 0 4px 12px #12454F, 0 -4px 12px #F6C700;*/
+  border: 2px solid #67AAB5; /* Soft teal border */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
 }
 
 .content h2 {

@@ -17,12 +17,11 @@ function Kitchissippi() {
 
       {/* Power BI iframe */}
       <div className="dashboard-container">
-        <iframe
-          title="Power BI Dashboard"
-          src="https://app.powerbi.com/" // Replace with actual Power BI link
+        <img
+          src="./dashboardks.png" // Replace with actual Power BI link
           className="dashboard"
           frameBorder="0"
-        ></iframe>
+          />
       </div>
 
       {/* Main Content */}
