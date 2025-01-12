@@ -87,7 +87,7 @@ function Kitchissippi() {
         <div className="history">
   <h2>A Brief History of Kitchissippi</h2>
   <p>
-    Kitchissippi Ward, designated as Ward 15 in Ottawa, derives its name from the Algonquin word "Kitchissippi," meaning "Great River," a reference to the Ottawa River that forms its northern boundary. This area encompasses several historic neighborhoods, including Westboro, Hintonburg, Mechanicsville, and Wellington Village, each contributing to the ward's rich cultural tapestry.
+    Kitchissippi Ward, designated as Ward 15 in Ottawa, derives its name from the Algonquin word "Kitchissippi," meaning "Great River," a reference to the Ottawa River that forms its northern boundary. This area encompasses several historic neighbourhoods, including Westboro, Hintonburg, Mechanicsville, and Wellington Village, each contributing to the ward's rich cultural tapestry.
   </p>
   
 </div>
